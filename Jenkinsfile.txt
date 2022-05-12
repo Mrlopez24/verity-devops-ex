@@ -6,19 +6,7 @@ pipeline {
 		//Code starts for stage Clean
         stage('Clean') {
             steps {
-                sh 'mvn clean'
-            }
-        }
-		//Code starts for stage PMD
-		stage('PMD') {
-            steps {
-                sh 'mvn site'
-            }
-        }
-		//Code starts for stage Compile
-		stage('Compile') {
-            steps {
-                sh 'mvn compile'
+                echo 'clean'
             }
         }
 		// ******ALL CODE TO BE ADDED ABOVE THIS COMMENT******
