@@ -38,7 +38,7 @@ public class ExpenseServiceTest {
 	}
 
 	@Test
-	public void saveExpenseTest() {
+	public void saveExpense() {
 		Expense expense = new Expense();
 		expense.setAmount(1000.00);
 
