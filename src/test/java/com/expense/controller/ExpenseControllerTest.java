@@ -57,9 +57,8 @@ public class ExpenseControllerTest {
 	
 	@WithMockUser(value = "spring")
 	@Test
-	public void testDeleteExpense() throws Exception {
+	public void deleteById() throws Exception {
 
-		
 
 		ResultActions resultAction = mockMvc.perform(get("/delete/1"))
 				// .andExpect(status().isOk())
